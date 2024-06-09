@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    background-image: url('miniräknare.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.calculator {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid 6px red
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    font-size: 2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: solid 6px red
+}
+
+#history {
+    font-size: 0.5em;
+    opacity: 0.7;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #ccc;
+}
+
+.operator {
+    background-color: #242423;
+    color: #fff;
+}
+
+.operator:disabled {
+    background-color: #ddd;
+}
+
+.number:disabled {
+    background-color: #ddd;
+}
