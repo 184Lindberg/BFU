@@ -16,5 +16,6 @@
         <button id="search-btn">Sök</button>
         <div id="search-results"></div>
     </div>
+
 </body>
 </html>
