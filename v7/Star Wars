@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Karaktärer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Star Wars Characters</h1>
+        <button id="obiwan-btn">Help me Obi-Wan</button>
+        <div id="character-info"></div>
+        <input type="text" id="search-input" placeholder="Sök karaktär...">
+        <button id="search-btn">Sök</button>
+        <div id="search-results"></div>
+    </div>
+</body>
+</html>
